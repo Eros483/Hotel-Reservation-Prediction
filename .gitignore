@@ -1,0 +1,15 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Build files
+build/
+dist/
+
+# Package installer files
+*.whl
+*.tar.gz
+
+# Python egg metadata
+*.egg-info/
