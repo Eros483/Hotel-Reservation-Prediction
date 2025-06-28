@@ -13,3 +13,7 @@ dist/
 
 # Python egg metadata
 *.egg-info/
+*.csv
+notebook/random_forest.pkl/
+
+*.log
