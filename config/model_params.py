@@ -5,13 +5,13 @@ LIGHTGM_PARAMS={
     'max_depth': randint(5, 50),
     'learning_rate': uniform(0.01, 0.2),
     'num_leaves': randint(20, 100),
-    'boosting_type': ['gbdt', 'dart', 'goss'],
+    'boosting_type': ['gbdt', 'dart'],
 }
 
 RANDOM_SEARCH_PARAMS={
     'n_iter': 4,
     'cv': 5,
-    'n_jobs': -1,
+    'n_jobs': 2,
     'verbose': 2,
     'random_state': 42, 
     'scoring': 'accuracy'
