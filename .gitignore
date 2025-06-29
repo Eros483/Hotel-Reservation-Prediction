@@ -18,3 +18,6 @@ dist/
 notebook/random_forest.pkl
 
 *.log
+venv/
+mlruns/
+logs/
